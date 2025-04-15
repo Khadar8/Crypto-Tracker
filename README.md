@@ -57,7 +57,7 @@
     Open your browser and navigate to `http://localhost:5173` (or the port specified in your terminal).
 
 ## 📸 Screenshots
-
+![image alt](https://github.com/Khadar8/Crypto-Tracker/blob/master/Homepage.png)
 ![image alt](https://github.com/Khadar8/Crypto-Tracker/blob/d5827185e0c488912960104ccd9ddf3deede8a10/Aboutpage.png)
 
 ## 📂 Project Structure
