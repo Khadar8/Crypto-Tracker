@@ -1,38 +1,83 @@
-.App {
-  text-align: center;
+/* App.css */
+
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #38bdf8; /* Keep custom color */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.card {
+  background: #1e293b; /* Keep custom background */
+  padding: 1.5rem; /* Keep padding */
+  border-radius: 1rem; /* Keep rounded corners */
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1); /* Keep shadow */
+  transition: transform 0.2s ease, box-shadow 0.2s ease; /* Keep transition */
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+}
+
+a {
+  color: #38bdf8; /* Keep custom color */
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #0ea5e9;
+}
+
+button {
+  padding: 0.8rem 1.5rem; /* Keep padding */
+  background-color: #38bdf8; /* Keep custom background */
+  color: white; /* Keep text color */
+  border: none; /* Keep no border */
+  border-radius: 8px; /* Keep rounded corners */
+  font-size: 1rem; /* Keep font size */
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease; /* Keep transition */
+}
+
+button:hover {
+  background-color: #0ea5e9;
+  transform: scale(1.05);
+}
+
+button:focus,
+button:focus-visible {
+  outline: 3px solid #38bdf8;
+}
+
+@media (max-width: 768px) {
+  #root {
+    padding: 1rem;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  h1 {
+    font-size: 2rem;
   }
-  to {
-    transform: rotate(360deg);
+
+  h2 {
+    font-size: 1.75rem;
+  }
+
+  .card {
+    padding: 1rem;
   }
 }
