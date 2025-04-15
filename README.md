@@ -58,7 +58,12 @@
 
 ## 📸 Screenshots
 ![image alt](https://github.com/Khadar8/Crypto-Tracker/blob/master/Homepage.png)
+![image alt](https://github.com/Khadar8/Crypto-Tracker/blob/master/Coinsearch.png)
+![image alt](https://github.com/Khadar8/Crypto-Tracker/blob/master/Alert%20Setup.png)
 ![image alt](https://github.com/Khadar8/Crypto-Tracker/blob/d5827185e0c488912960104ccd9ddf3deede8a10/Aboutpage.png)
+![image alt](https://github.com/Khadar8/Crypto-Tracker/blob/master/Listofcoins.png)
+![image alt](https://github.com/Khadar8/Crypto-Tracker/blob/master/Light%20Mode1.png)
+![image alt](https://github.com/Khadar8/Crypto-Tracker/blob/master/Light%20Mode2.png)
 
 ## 📂 Project Structure
 
