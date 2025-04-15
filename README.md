@@ -112,7 +112,7 @@ crypto-tracker/
 
 ## 🚀 Deployment
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ec93257a-fca9-445b-b998-ecccdd15644d/deploy-status)](https://app.netlify.com/sites/cryptotrackerbykhadar/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ec93257a-fca9-445b-b998-ecccdd15644d/deploy-status)](https://app.netlify.com/sites/crypto-tracker-by-khadar/deploys)
 
 This project can be easily deployed using platforms like:
 
